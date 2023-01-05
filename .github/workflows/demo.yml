@@ -1,0 +1,8 @@
+name: Deno mock Workflow
+on: workflow_dispatch
+jobs:
+  print:
+    runs-on: windows-latest
+    steps:
+      - name: Salom
+        run: echo Hello GH Actions
