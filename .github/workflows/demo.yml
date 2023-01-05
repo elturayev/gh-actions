@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: Salom
         run: echo Hello GH Actions
+      - name: Hayer
+        run: |
+          echo Ketdik
+          echo qochdik
